@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Menu</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+
+<body class="instafocus dark">
+  <header class="instafocus-header">
+    <h1 class="heading">InstaFocus Pro</h1>
+  </header>
+
+  <main class="content">
+    <section data-tab-content id="options" class="active">
+      <div class="options-container d-flex flex-column align-items-center">
+          <h2>Your Hide List ⭐ </h2>
+          <p class="">Avoid Disrtactions & be focus</p>
+        <form class="instafocus-form">
+         
+          <div class="checkbox-group">
+            <label><input type="checkbox" id="blockReels" /> Reels Section</label>
+            <label><input type="checkbox" id="blockExplore" /> Explore Section</label>
+            <label><input type="checkbox" id="blockStories" /> Stories Section</label>
+            <label><input type="checkbox" id="blockPosts" /> Posts</label>
+            <label><input type="checkbox" id="blockSuggestedFollowers" />Followers Suggestion</label>
+          </div>
+
+          <!-- <h2>Redirect</h2>
+          <p class="form-description">Always show the Following feed, avoiding suggested content.</p>
+          <div class="toggle-container">
+            <label class="toggle-switch">
+              <input type="checkbox" id="blockForYouFeed" />
+              <span class="toggle-slider round"></span>
+            </label>
+          </div> -->
+        </form>
+        <br>
+
+        <div class="button-container">
+          <button id="save" class="instafocus-button primary">Save Changes</button>
+          <small id="status"></small>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="popup.js" type="module"></script>
+</body>
+</html>
