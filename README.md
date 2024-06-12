@@ -12,5 +12,5 @@ A chrome/brave extension to help you to block all the distractions caused by ree
 - Go to Extensions > Manage Extensions
 - Toggle 'Developer mode'
 - Click 'Load unpacked'
-- Select the 'source' folder in the antigram-extension project
+- Select the 'source' folder in the InstaFocus-Pro project
 Done!
